@@ -32,9 +32,6 @@ export default class List extends Vue {
     this.internalData = serviceData;
   }
 
-  private getItemTitle(item: DataType) {
-    return `${item.alpha3Code}\n${item.name}\n${item.region}`;
-  }
 }
 </script>
 
