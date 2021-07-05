@@ -52,6 +52,7 @@ div.list.table {
     width: 100%;
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 
     div {
       padding: 5px;
